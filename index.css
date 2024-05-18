@@ -85,10 +85,7 @@ h1{
 
 }
 
-
-
-
-.music{
+.music-box{
   box-sizing: border-box;
   height: 300px;
   width:800px;
@@ -102,9 +99,7 @@ h1{
   margin-left: 230px;
   margin-top: 150px;
   border-radius: 12px;
-  border-color: black;
-  border-width: 4px;
-
+  border:10px solid grey;
 }
   
 .center_attempt{
@@ -135,7 +130,7 @@ h1{
 
 }
 
-.box {
+.film-box {
   border: 5px solid black; /* Adjust the width, style, and color as needed */
   border-radius: 3px;
   padding-left: 20px; /* Optional: Add some padding to make the content look better */
