@@ -1,0 +1,78 @@
+body{
+  background-image: url(Homepage.jpg);
+  background-size: 1400px 900px;
+ }
+
+ 
+ .web-head{
+  color:white;
+  font-family:"home"; 
+  font-size:180px;
+  text-align: center;
+  margin: 150px 30px 50px 30px;
+
+}
+
+.web-head:hover{
+  cursor:pointer;
+  font-size:200px;
+  color:#e0b1cb;
+  transition:1s;
+}
+
+.web-subtext{
+  color:white;
+  font-family:"home";
+  font-size:20px;
+  text-align:center;
+
+}
+@font-face {
+  font-family: "home";
+  src: url(Jaoren.ttf) format("truetype");
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #DBD3D8;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: #3D3B3C;
+text-align: center;
+padding: 20px 28px;
+text-decoration: none;
+font-size:20px;
+font-weight:bold;
+}
+
+li a:hover {
+background-color:#e0b1cb;
+cursor:pointer;
+color:#fdf8e1;
+font-size:22px;
+transition:1s;
+}
+
+.intro{
+  font-size:26px;
+  font-family:"home";
+  font-weight: 100;
+  background-color: white;
+  border-radius: 6px;
+  padding:20px 20px 30px 50px;
+  margin-top:60px;
+
+}
+
+.video{
+  -moz-box-align: center;
+}

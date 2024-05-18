@@ -1,0 +1,129 @@
+body{
+  background-image: url(musicvideo.png);
+}
+
+hr{
+  height: 3px;
+}
+
+@font-face {
+font-family: "mscvid1";
+src: url(BlackStoryDemoRegular.ttf) format(truetype);
+}
+
+ .mscvid-head{
+  font-family: "mscvid1";
+  font-size: 100px;
+  text-align: center;
+  color:#311f4b;
+ }
+
+ .mscvid-sub{
+   font-family: "mscvid1";
+   font-size: 16px;
+  text-align: center;
+  color: #311f4b;
+  background-color: #bdb7d1;
+  margin-top: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+
+ .grgrt-button,.youaintnoceleb-button,.lovemelow-button,.absolutelyfilm-button,.backon74-button,.rememberme-button{
+   padding: 10px 5px 10px 5px;
+ border: 5px outset buttonborder;
+ border-radius: 12px;
+ color: #96FFFE;
+ background-color: #F79ED1;
+ text-decoration: none;
+ display:block;
+ text-align: center;
+ font-family: "joystix";
+ border-color: #1397E6;
+ }
+
+ .grgrt-button{
+ margin-bottom: 60px;
+ margin-top: 120px;
+ margin-right: 20px;
+
+ }
+
+ .youaintnoceleb-button{
+ margin-bottom: 60px;
+ margin-top: 0px;
+ margin-right: 20px;
+ 
+ }
+
+ .lovemelow-button{
+ margin-bottom: 60px;
+ margin-top: 0px;
+ margin-right: 20px;
+
+ }
+
+ .absolutelyfilm-button{
+ 
+ margin-bottom: 60px;
+ margin-top: 0px;
+ margin-right: 20px;
+
+ }
+
+ .backon74-button{
+
+ margin-bottom: 90px;
+ margin-top: 0px;
+ margin-right: 20px;
+ 
+ }
+
+ .rememberme-button{
+ margin-bottom: 100px;
+ margin-top: 0px;
+ margin-right: 20px;
+ 
+ }
+ 
+ 
+
+ .grgrt-button:hover,.youaintnoceleb-button:hover,.lovemelow-button:hover,.backon74-button:hover,.absolutelyfilm-button:hover,.rememberme-button:hover{
+   background-image: url(diskexperiment.jpg);
+   transition: 1s;
+   transform: scale(1.1);
+ }
+
+ .youaintnoceleb-button:hover{
+   background-color: #1397E6;
+  
+ }
+
+ .lovemelow-button:hover{
+   /*background-color: #1397E6;*/
+   background-image: url(newnew.png);
+  
+ }
+
+ .backon74-button:hover{
+   background-color: #1397E6;
+
+ }
+
+ .absolutelyfilm-button:hover{
+   background-color: #1397E6;
+   
+ }
+
+ .rememberme-button:hover{
+   background-color: #1397E6;
+  
+ }
+
+ .center{
+   display: flex;
+   flex-direction: column; /* Makes the links fall under each other */
+   justify-content: center; /* Centers the links horizontally */
+   align-items: center; /* Centers the links vertically */
+   height: 100vh; /* Optional: Centers vertically within the viewport */
+ }
