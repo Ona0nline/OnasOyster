@@ -66,10 +66,101 @@ transition:1s;
   font-size:26px;
   font-family:"home";
   font-weight: 100;
-  background-color: white;
+  background-color: #e0b1cb;;
   border-radius: 6px;
   padding:20px 20px 30px 50px;
   margin-top:60px;
+  
 
+}
+
+h1{
+  font-size: 28px;
+  font-family: "joystix";
+  background-attachment: fixed;
+  background-color: rgb(128, 240, 240);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+
+.music{
+  box-sizing: border-box;
+  height: 300px;
+  width:800px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 230px;
+  margin-top: 150px;
+  border-radius: 12px;
+  border-color: black;
+  border-width: 4px;
+
+}
+  
+.center_attempt{
+  width: 80%; /* Adjust the width as needed */
+  max-width: 800px; /* Optional: set a maximum width */
+  margin: 0 auto;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Optional: Adds space between sections */
+  position: relative;
+}
+
+.video iframe {
+  max-width: 100%;
+}
+
+.explain{
+  font-family: "joystix";
+  font-size: 14px;
+}
+
+.brainlink{
+  color: aliceblue;
+
+}
+
+.box {
+  border: 5px solid black; /* Adjust the width, style, and color as needed */
+  border-radius: 3px;
+  padding-left: 20px; /* Optional: Add some padding to make the content look better */
+  padding-right: 20px;
+  margin-top: 100px;
+  margin-left: 20px; /* Optional: Add some margin to separate the box from other elements */
+  margin-right: 20px;
+  text-align: center;
+  background-color: #96041A;
+  text-align: center; /* Center-align text */
+  width:800px;
+  
+}
+
+h2{
+  font-family: "joystix";
+  font-size: 30px;
+  background-color: grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+
+.explain2{
+  font-size: 18px;
+  font-style: italic;
 }
 
