@@ -1,6 +1,18 @@
 body{
-  background-image: url(meifyouevencare.jpg);
+  background-image: url(underconstructionback.png);
+  background-size:1500px 900px ;
  }
+
+ .index-link{
+  color: #e0b1cb;
+
+ }
+
+ .index-link:hover{
+  font-size: 18px;
+  color:#d17cab;
+ }
+
 
  .web-head{
    color:white;
@@ -23,6 +35,10 @@ body{
    font-family:"my custom font";
    font-size:25px;
    text-align:center;
+   background-color: rgb(86, 86, 86);
+   border-radius: 8px;
+   padding:30px 20px 30px 20px;
+   
 
  }
  @font-face {

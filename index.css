@@ -1,6 +1,7 @@
 body{
   background-image: url(Homepage.jpg);
   background-size: 1400px 900px;
+  
  }
 
  
@@ -30,6 +31,15 @@ body{
 @font-face {
   font-family: "home";
   src: url(Jaoren.ttf) format("truetype");
+   font-family: "cf1";
+   src: url(StampyLight.ttf) format("truetype");
+   font-family: "cf2";
+   src: url(revertro.ttf) format("truetype");
+   font-family:"halovidgame";
+   src: url(HALO____.TTF) format("truetype");
+   font-family:"joystix";
+   src: url(joystix\ monospace.otf) format("opentype");
+ 
 }
 
 ul {
@@ -63,15 +73,14 @@ transition:1s;
 }
 
 .intro{
-  font-size:26px;
-  font-family:"home";
+  font-size:20px;
+  font-family:"joystix";
   font-weight: 100;
-  background-color: #e0b1cb;;
+  background-color: #1cbbdb;;
   border-radius: 6px;
   padding:20px 20px 30px 50px;
   margin-top:60px;
-  
-
+  opacity: 60%;
 }
 
 h1{
@@ -86,20 +95,23 @@ h1{
 }
 
 .music-box{
-  box-sizing: border-box;
-  height: 300px;
-  width:800px;
+  max-height: 500px;
+  max-width:800px;
+  width:100%;
   background-color: blue;
   display: flex;
   align-items: center;
   text-align: center;
-  flex-direction: column;
+ flex-direction: column;
   align-items: center;
   text-align: center;
   margin-left: 230px;
   margin-top: 150px;
   border-radius: 12px;
-  border:10px solid grey;
+  border-color: black;
+  border-width: 4px;
+  border: 8px solid rgb(0, 0, 172);
+
 }
   
 .center_attempt{
@@ -114,10 +126,15 @@ h1{
   align-items: center;
   margin-top: 20px; /* Optional: Adds space between sections */
   position: relative;
+  background-color: aliceblue;
 }
 
-.video iframe {
-  max-width: 100%;
+ iframe {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left:20px;
+  border:none;
 }
 
 .explain{
@@ -158,4 +175,3 @@ h2{
   font-size: 18px;
   font-style: italic;
 }
-
